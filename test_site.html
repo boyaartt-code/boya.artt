@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Графический Дизайнер | Визитка</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #faf9f6; color: #222; }
+        header { background: #2e3a50; color: #fff; padding: 40px 0 25px 0; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5em; }
+        .container { max-width: 900px; margin: 30px auto; background: #fff; border-radius: 9px; padding: 25px 28px 41px 28px; box-shadow: 0 2px 18px rgba(0,0,0,0.07); }
+        h2 { color: #2e3a50; margin-top: 30px; }
+        .services, .partners, .contacts { margin-bottom: 40px; }
+        ul { padding-left: 20px; }
+        .portfolio img { width: 160px; height: 100px; object-fit: cover; margin: 8px 14px 8px 0; border-radius: 5px; border: 1px solid #ececec; }
+        .btn { display: inline-block; background: #2e3a50; color: #fff; text-decoration: none; padding: 12px 27px; border-radius: 5px; margin-top: 18px; transition: background .2s; }
+        .btn:hover { background: #3f4a64; }
+        .footer { text-align: center; color: #999; font-size: 0.95em; margin-top: 38px; }
+        @media (max-width: 600px) {
+            .container { padding: 11px 6px; }
+            .portfolio img { width: 85px; height: 60px; }
+            header h1 { font-size: 1.3em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Графический дизайнер в Новосибирске</h1>
+        <p>Современный дизайн и принты для вашего бизнеса и интерьера</p>
+    </header>
+
+    <div class="container">
+        <!-- О себе -->
+        <section>
+            <h2>Обо мне</h2>
+            <p>Меня зовут <b>Иван Петров</b>. Я профессионально занимаюсь графическим дизайном, создаю логотипы, фирменный стиль, рекламные материалы и иллюстрации для любых задач. Каждый проект разрабатываю индивидуально — с учётом вашей цели.</p>
+        </section>
+
+        <!-- Услуги -->
+        <section class="services">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Разработка логотипов и айдентики</li>
+                <li>Дизайн визиток, баннеров, полиграфии</li>
+                <li>Графика для сайтов и соцсетей</li>
+                <li>Авторские иллюстрации и макеты</li>
+                <li>Подготовка макетов к печати</li>
+                <li><b>Печать на стенах (совместно с партнёрами)</b></li>
+            </ul>
+        </section>
+
+        <!-- Партнёры -->
+        <section class="partners">
+            <h2>Партнёры: печать на стенах</h2>
+            <p>
+                Для ваших проектов можем вместе с проверенными партнёрами выполнить печать авторских изображений и орнаментов непосредственно на стенах, фасадах и других поверхностях.
+                <br>Любые сложности и стили — реализуем качественно и с гарантией!
+            </p>
+        </section>
+
+        <!-- Портфолио -->
+        <section class="portfolio">
+            <h2>Портфолио</h2>
+            <!-- Вставьте реальные изображения работ сюда -->
+            <img src="https://via.placeholder.com/160x100?text=Работа+1" alt="Пример работы 1">
+            <img src="https://via.placeholder.com/160x100?text=Работа+2" alt="Пример работы 2">
+            <img src="https://via.placeholder.com/160x100?text=Работа+3" alt="Пример работы 3">
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <p>
+                📧 Email: <a href="mailto:yourmail@mail.ru">yourmail@mail.ru</a><br>
+                📱 Telegram/WhatsApp: <a href="https://t.me/yourusername" target="_blank">@yourusername</a><br>
+                🌐 Instagram: <a href="https://instagram.com/yourprofile" target="_blank">@yourprofile</a>
+            </p>
+            <a class="btn" href="mailto:yourmail@mail.ru">Заказать консультацию</a>
+        </section>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Иван Петров — Графический дизайнер. Новосибирск
+    </div>
+</body>
+</html>
