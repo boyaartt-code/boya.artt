@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Параллакс Пример</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100%; width: 100%;
+      overflow-x: hidden;
+    }
+    .parallax {
+      /* Путь до вашей картинки */
+      background-image: url('a6062000f7eb0bb35bdd7474e3ae8863-image.png');
+      min-height: 400px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .section {
+      background: #fcfcfc;
+      color: #232323;
+      padding: 50px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="parallax"></div>
+  <div class="section">
+    <h2>Стандартный блок</h2>
+    <p>Контент сайта — ваши услуги или информация.</p>
+  </div>
+  <div class="parallax" style="background-image: url('e66f3e9250eed0f00ff1cf6755f07afd-image.png')"></div>
+  <div class="section">
+    <h2>Ещё один блок</h2>
+    <p>Параллакс можно использовать с разными изображениями и между разными секциями.</p>
+  </div>
+</body>
+</html>
